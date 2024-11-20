@@ -3,19 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Pengelolaan Pelaporan Terpadu Kepahiang Barang Milik Daerah</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sistem Pengelolaan Pelaporan Terpadu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        li:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        a:hover {
+            background-color: #f9f9f9;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .icon.default {
+            background-image: url('https://via.placeholder.com/50');
+        }
+
+        @media (max-width: 768px) {
+            a {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Daftar Link Tanah Per OPD</h1>
     <ul>
         <li>
-            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=0&single=true" target="_blank">
-                <img src="https://via.placeholder.com/150" alt="Preview Sekretariat DPRD">
-                    <span>Sekretariat DPRD</span>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=0&single=true">
+                <div class="icon default"></div>
+                Sekretariat DPRD
             </a>
         </li>
-        <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=1151688867&single=true">Sekretariat Daerah</a></li>
+        <li>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=1151688867&single=true">
+                <div class="icon default"></div>
+                Sekretariat Daerah
+            </a>
+        </li>
         <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=827624482&single=true">Kecamatan Kepahiang</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=2006118452&single=true">Kecamatan Ujan Mas</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvzrc0w3nDJeFsG9o4gBQqQBvLspiWnJOZV1Bf6zBoAuQQ4xCV1P_mOcMckGJQw8Y63yKLIFLaVy3B/pubhtml?gid=776862151&single=true">Kecamatan Tebat Karai</a></li>
